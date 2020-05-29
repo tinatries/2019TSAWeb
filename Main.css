@@ -1,0 +1,1364 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Part1 {
+        background-image: url(Pic1.jpg);
+        background-size: cover; 
+        background-position: center;
+        background-blend-mode: overlay; 
+        background-color: rgb(198, 199, 201);
+        text-align: center; 
+        line-height: 40px; 
+        font-size: 45px; 
+        padding: 20px; 
+        padding-bottom: 130px; 
+    }
+
+    .Part1 h1 {
+        padding-top: 100px; 
+    }
+
+    .btn {
+        width: 380px; 
+        height: 90px; 
+        text-align: center; 
+        background: none;
+        font-size: 36px; 
+        text-transform: uppercase; 
+        border: 2px black solid; 
+        cursor: pointer;
+    }
+
+    .btn a{
+        color: black; 
+        text-decoration: none;
+        width: 100%; 
+        height: 100%;
+        
+    }
+    .btn a:hover, .btn:hover {
+        color: white; 
+        background-color: rgb(27, 27, 27);
+    }
+
+    /* Why Us? */
+
+    .headwhyus {
+        grid-row: 1;
+        grid-column: 1/4;
+        text-align: center;
+        font-size: 50px; 
+    }
+
+    .GridPart2 {
+        display: grid;
+        grid-template-rows: .2fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 10fr 1fr;
+        height: 100%;
+        justify-items: center;
+        row-gap: 60px; 
+        padding-bottom: 70px; 
+    }
+
+    .Icon1 {
+        grid-column: 2;
+        grid-row: 2;
+        text-align: center; 
+        display: grid; 
+        grid-template-rows: 250px 1fr;
+        grid-template-columns: repeat(10, 1fr);
+        height: 100%; 
+    }
+
+        .Icon1Pic {
+            justify-content: center;
+            grid-row: 1;
+            grid-column: 2/10;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .Icon1Para {
+            text-align: center;
+            grid-row: 2;
+            grid-column: 3/9;
+            width: 450px;
+        }
+
+    .Icon2 {
+        grid-column: 2; 
+        grid-row: 3; 
+        text-align: center; 
+        display: grid; 
+        grid-template-rows: 290px 1fr;
+        grid-template-columns: repeat(10, 1fr);
+        height: 100%;
+    }
+            .Icon2Pic {
+                justify-content: center;
+                grid-row: 1;
+                grid-column: 2/10;
+                overflow: hidden;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+                text-align: center;
+            }
+            .Icon2Para {
+                text-align: center;
+                grid-row: 2;
+                grid-column: 3/9;
+                width: 450px;
+            }
+
+    .Icon3 {
+        grid-column: 2; 
+        grid-row: 4; 
+        text-align: center; 
+        display: grid; 
+        grid-template-rows: 290px 1fr;
+        grid-template-columns: repeat(10, 1fr);
+        height: 100%;
+    }
+            .Icon3Pic {
+                justify-content: center;
+                grid-row: 1;
+                grid-column: 2/10;
+                overflow: hidden;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+            }
+            .Icon3Para {
+                text-align: center;
+                grid-row: 2;
+                grid-column: 3/9;
+                width: 450px;
+            }
+
+    .Icon1Para, .Icon2Para, .Icon3Para {
+        font-size: 39px; 
+        margin-bottom: -50px; 
+    }
+
+/* Custumer Review */
+
+/* Slideshow container */
+.slideshowheading {
+    margin-left: 15px; 
+}
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+    font-size: 40px; 
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 60px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+/*escaperooms*/
+.ouramazingscaperooms {
+        font-size: 65px; 
+        text-align: center; 
+        padding-top: 80px; 
+        padding-bottom: 80px;
+        background: black; 
+        color: white;  
+}
+    .Part3Grid {
+        grid-template: auto;
+        display:grid;
+        text-align: center; 
+        margin-left: auto;
+        margin-right: auto;
+        row-gap: 100px; 
+        height: 100%;
+        width: 75%;
+        padding-top: 90px; 
+    }
+
+    .escaperoom1, .escaperoom2, .escaperoom3, .escaperoom4, .escaperoom5, .escaperoom6
+     {
+        height: 1100px; 
+        display: grid; 
+        grid-template-rows: 1fr 7fr 1fr ; 
+        box-shadow: 10px 10px 5px rgb(142, 145, 146);
+        margin-top: 30px; 
+    }
+        .escaperoomlevel {
+            grid-row: 1; 
+            background-color: rgb(46, 43, 43); 
+            color: white; 
+            font-size: 70px; 
+            text-align: center; 
+            letter-spacing: 3px; 
+            padding-top: 15px;
+        }
+        .timetower, .TheFullMoon, .TheMine, .Art, .composer, .LogCabin {
+            grid-row: 2; 
+            background-size: cover; 
+            background-position: center; 
+            text-align: center; 
+            font-size: 55px; 
+            padding-top: 20px; 
+            font-family: 'Akronim', cursive;
+        }
+        .timetower h1, .TheFullMoon h1, .TheMine h1, .Art h1, .composer h1, .LogCabin h1 {
+            visibility: hidden;
+        }
+            .timetower {
+                background-image: url(Timetower.jpg);
+                background-blend-mode: overlay; 
+                background-color: rgb(163, 160, 160);
+            }
+            .TheFullMoon {
+                background-image: url(TheFullMoon.jpg);
+                background-size: cover; 
+                background-position: 67%;
+            }
+            .TheMine {
+                background-image: url(Cave.jpg)
+            }
+            .Art {
+                background-image: url(Art.jpg)
+            }
+            .composer {
+                background-image: url(Composer.jpg);
+                background-position: 55%; 
+            }
+            .LogCabin {
+                background-image: url(LogCabin.jpg)
+
+            }
+        .moreinfobutton {
+            width: 100%;
+            float: left;
+            background: crimson; 
+            color: white; 
+            height: 100%;
+            text-decoration: none;
+            border: 1px red solid;
+            font-size: 45px;   
+            grid-row: 3; 
+            height: 135px;
+        }
+        .moreinfobutton:hover {
+            background: white; 
+            color: red; 
+            border: 1px solid white; 
+            cursor: pointer;
+        }
+
+        .Booknowbutton {
+            width: 100%; 
+            float:right; 
+            background-color: #48BD23; 
+            color: rgb(255, 255, 255); 
+            height: 100%; 
+            text-decoration: none; 
+            border: 1px #48BD23 solid; 
+            font-size: 45px;  
+            grid-row: 2; 
+            height: 135px;
+        }
+
+        .Booknowbutton:hover {
+            background: white; 
+            color: #48BD23;
+            border: white solid 1px; 
+            cursor: pointer;
+        }
+/* Private Parties */
+
+.otherevents {
+    font-size: 90px; 
+    text-align: center; 
+    margin-top: 80px; 
+    margin-bottom: 15px; 
+    padding-top: 108px; 
+}
+
+.othereventsdiv {
+    padding-bottom: 40px; 
+}
+
+.party-wrapper {
+    width: 88%; 
+    display: grid; 
+    grid-template-rows: 1fr 1fr .5fr; 
+    grid-template-columns: auto; 
+    justify-content: center;
+    justify-items: center; 
+    margin-left: 6%; 
+    row-gap: 5px; 
+    height: 600px;
+}
+
+.party-wrapper2 {
+    width: 88%; 
+    display: grid; 
+    grid-template-rows: 1fr 1fr .5fr; 
+    grid-template-columns: auto; 
+    justify-content: center;
+    justify-items: center; 
+    margin-left: 6%; 
+    row-gap: 10px; 
+    height: 700px;
+}
+
+.party-wrapper2 .words h2 {
+    padding-bottom: 15px; 
+}
+
+.party-img {
+    grid-row: 1; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.words {
+    grid-row: 2; 
+    text-align: center; 
+    width: 100%; 
+}
+    .words h2 {
+        font-size: 47px;
+    }
+    .words p {
+        font-size: 36px; 
+    }
+.learnmorediv {
+    grid-row: 3; 
+    width: 175px; 
+    height: 75px;
+}
+.Learnmorebutton, .Learnmorebutton2 {
+    text-align: center; 
+    width: 175px; 
+    height: 65px;
+    background-color: red; 
+    font-size: 27px; 
+    color: white; 
+    border-radius: 60px; 
+    font-style: italic;
+    border: none; 
+    
+}
+.Learnmorebutton2:hover, .Learnmorebutton:hover {
+    background: white; 
+    color: red; 
+    cursor: pointer;
+    border: 1.5px black solid; 
+}
+
+
+
+/* Contact Us */
+
+.contact {
+    padding-top: 65px; 
+    background: black;
+    display: grid; 
+    grid-row: 50% 50%;
+    grid-column: 1fr; 
+    justify-content: center; 
+    justify-items: center;
+    width: 100%; 
+    row-gap: 55px; 
+    padding: 80px; 
+}
+
+.conh4 {
+    grid-row: 1; 
+    grid-column: 1; 
+    width: 100%; 
+    font-size: 40px; 
+    letter-spacing: 3.5px; 
+    color: white; 
+}
+.contactbutton {
+    grid-row: 2; 
+}
+.contactusbutton {
+    width: 235px; 
+    background: rgb(247, 198, 37);
+    border: 1.5px solid white;  
+    height: 75px; 
+    font-size: 25px; 
+}
+
+/* Lines */
+
+.hrus {
+    border: red 4px solid; 
+    width: 60%;
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.otherhr {
+    border: 5px red solid; 
+    width: 14%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+footer p{
+    background: black; 
+    color: white; 
+    text-align: center; 
+    font-size: 10px; 
+}
+
+@media screen and (min-width: 1100px) {
+    .Part1 {
+        font-size: 35px; 
+    }
+    .btn {
+        width: 210px; 
+        font-size: 25px; 
+        height: 70px; 
+    }
+    .iconimg1 {
+        width: 120px;
+    }
+    .Icon1Para, .Icon2Para, .Icon3Para {
+        font-size: 22px; 
+        line-height: 40px; 
+        margin: 0;
+    }
+    .headwhyus {
+        font-size: 25px; 
+        padding-top: 15px;
+        padding-bottom: 10px;
+        grid-row:1;
+    }
+    .GridPart2 {
+        display: grid; 
+        grid-template-rows: 18% 30% 30% 30%; 
+        grid-template-columns: 5% 90% 5%;
+        width: 100%;
+        height: 700px; 
+        row-gap: unset; 
+        padding-bottom: 0;
+    }
+
+    .Icon1 {
+        grid-row: 2; 
+        grid-column: 2; 
+        max-width: 100%; 
+        width: 75%; 
+        display: grid; 
+        grid-template-columns: 15% 85%;
+        grid-template-rows: 1; 
+        text-align: unset;
+        justify-content: center; 
+        column-gap: 18px; 
+        height: 50%; 
+    }
+            .Icon1Pic {
+                grid-column: 1; 
+                grid-row: 1; 
+                margin-left: auto;
+                margin-right: auto; 
+                margin-top: 0;
+            }
+            .Icon1Para {
+                width: 101%; 
+                grid-row: 1; 
+                grid-column: 2;
+                text-align: center;  
+            }
+
+    .Icon2 {
+        grid-row: 3; 
+        grid-column: 2; 
+        max-width: 100%; 
+        width: 75%; 
+        display: grid; 
+        grid-template-rows: 1; 
+        grid-template-columns: 15% 88%;
+        text-align: unset; 
+        column-gap: 19px;
+        height: 50%; 
+    }
+            .Icon2Pic {
+                grid-column: 1; 
+                margin-left: auto; 
+                margin-right: auto; 
+                justify-content: unset;
+                margin-top: 0; 
+            }
+            .Icon2Para {
+                grid-row: 1; 
+                grid-column: 2; 
+                width: 97%; 
+            }
+    .Icon3 {
+        grid-row: 4;
+        grid-column: 2;
+        text-align: unset; 
+        display: grid; 
+        grid-template-rows: 1; 
+        grid-template-columns: 15% 85%; 
+        width: 75%;
+        height: 50%; 
+        column-gap: 21px;  
+    }
+            .Icon3Pic {
+                grid-column: 1; 
+                margin-left: auto; 
+                margin-right: auto; 
+                justify-content: unset;
+                margin-top: 0; 
+            }
+            .Icon3Para {
+                grid-row: 1; 
+                grid-column: 2; 
+                width: 100%; 
+            }
+    .ouramazingscaperooms {
+        font-size: 45px; 
+        padding: 40px; 
+    }
+    .Part3Grid {
+        display: grid; 
+        grid-template-rows: 1; 
+        grid-template-columns: 1% 30% 30% 30% 1%;
+        margin: 0;
+        width: 95%; 
+        padding-top: 50px;
+        grid-template: unset; 
+        row-gap: none; 
+        margin-left: auto; 
+        margin-right: auto; 
+        column-gap: 20px;  
+    }
+            .escaperoomlevel {
+                font-size: 30px; 
+                padding-top: 10px;
+                padding-bottom: 10px; 
+                grid-row: 1; 
+            }
+            .escaperoom1, .escaperoom4 {
+                grid-template-rows: .5fr 7fr 1fr ; 
+                grid-row: 1; 
+                grid-column: 2; 
+                width: 90%; 
+                height: 550px; 
+            }
+
+            .escaperoom2, .escaperoom5 {
+                grid-template-rows: .5fr 7fr 1fr ;
+                grid-row: 1; 
+                grid-column: 3; 
+                width: 90%;
+                height: 550px; 
+            }
+
+            .escaperoom3, .escaperoom6 {
+                grid-template-rows: .5fr 7fr 1fr ;
+                grid-row: 1; 
+                grid-column: 4; 
+                width: 90%;
+                height: 550px; 
+            }
+            .escaperoom6 {
+                display: grid; 
+            }
+            .timetower h1, .TheFullMoon h1, .TheMine h1 {
+                visibility: hidden;
+            }
+
+            .moreinfobutton, .Booknowbutton {
+                width: 50%;
+                height: 70px;
+                font-size: 20px; 
+            }
+    .partygrid {
+        display: grid; 
+        grid-template-rows: 420px; 
+        grid-template-columns: 2;
+        width: 90%;
+        margin-right: auto; 
+        margin-left: auto; 
+    }
+    .party-wrapper {
+        grid-row: 1; 
+        grid-column: 1;
+        height: 410px;
+        grid-gap: 5px;  
+    }
+    .party-wrapper2 {
+        grid-row: 1; 
+        grid-column: 2;
+        height: 410px; 
+        row-gap: 1px;  
+    }
+    .party-wrapper2, .party-wrapper {
+        font-size: 23px; 
+        width: 90%;
+    }
+    .otherevents {
+        font-size: 55px; 
+        text-align: center; 
+        margin: unset; 
+    }
+
+        .eventimg {
+            width: 120px;
+
+        }
+        .words h2 {
+            font-size: 30px; 
+        }
+        .words p {
+            font-size: 20px;
+        }
+    .Learnmorebutton, .Learnmorebutton2 {
+        width: 135px; 
+        font-size: 20px; 
+        height: 45px; 
+    }
+    .mySlides {
+        padding: 45px; 
+        font-size: 25px; 
+    }
+    .slideshowheading {
+        font-size: 25px; 
+    }
+    .author {
+        padding: 10px; 
+    }
+    .Learnmorebutton2 {
+        margin-top: 5.75px; 
+    }
+    .contact {
+        padding: 65px; 
+    }
+    .contactusbutton {
+        height: 60px;
+        width: 200px; 
+        font-size: 23px; 
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1250px) {
+    .escaperoom1, .escaperoom2, .escaperoom3, .escaperoom4, .escaperoom5, .escaperoom6 {
+        width: 100%
+    }
+}
+
+/* Nav Bar */
+.idk2 {
+    font-size: 20pt; 
+    height: 40px; 
+}
+.navigationDesktop {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1; 
+    width: 100%; 
+    margin-left: auto; 
+    margin-right: auto; 
+
+}
+nav {
+    padding: 20px; 
+}
+    .links1{
+        grid-row: 1; 
+        grid-column: 1; 
+    }
+    .links2{
+        grid-row: 1; 
+        grid-column: 2;
+    }
+    .links3{
+        grid-row: 1; 
+        grid-column: 3; 
+    }
+    .links4{
+        grid-row: 1; 
+        grid-column: 4; 
+    }
+    
+nav ul ul li{
+	position:relative;
+	display:none;
+}
+
+nav ul ul ul{
+	display:none;
+}
+
+nav ul li:hover ul li{
+	display: block;
+	animation: navmenu 500ms forwards;
+}
+
+@keyframes navmenu{
+	0%{
+		opacity:0;
+		top:5px;
+	}
+	100%{
+		opacity:1;
+		top:0px;
+	}
+}
+
+nav ul ul li:hover ul{
+	display:block;
+	position:absolute;
+    width:100%;
+	left: 100%;
+	top:0px;
+}
+nav {
+	display:block;
+	margin:0 auto;
+	text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+}
+
+nav a{
+	display:block;
+	text-decoration: none;
+	font-family: monospace;
+	font-weight: bold;
+	color:#112233;
+}
+
+nav a:hover{
+	background:#223433;
+	color:#f0f1f5;
+}
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	height:100%;
+    line-height: 40px;
+    background: #f0f1f5;
+    font-size: 15pt; 
+}
+
+.logo {
+    font-size: 40px;
+    padding: 30px;  
+}
+
+/* Timetower.html */
+
+.timetowergrid {
+    margin-top: 70px; 
+    grid-template-rows: 4; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center; 
+    row-gap: 29px; 
+}
+
+.ttgitem {
+    font-weight: 0; 
+}
+.ttgitempic h4 {
+    grid-row: 1; 
+    grid-column: 1/6;
+    font-size: 75px; 
+    text-align: center; 
+    background-image: url(Timetower2.jpg); 
+    background-size: cover;
+    padding: 200px; ;
+    background-blend-mode: overlay; 
+    background-color: #8a8b8f
+}
+.ttgitempic1 h4{
+    grid-row: 1; 
+    grid-column: 1/6;
+    font-size: 75px; 
+    text-align: center; 
+    background-image: url(Composer2.jpg); 
+    background-size: cover;
+    padding: 200px; ;
+    background-blend-mode: overlay; 
+    background-color: #8a8b8f;
+    color: white;
+}
+.ttgitempic2 h4 {
+    grid-row: 1; 
+    grid-column: 1/6;
+    font-size: 75px; 
+    text-align: center; 
+    background-image: url(Art2.jpg); 
+    background-size: cover;
+    padding: 200px; ;
+    color: white;
+}
+.ttgitempic3 h4 {
+    grid-row: 1; 
+    grid-column: 1/6;
+    font-size: 75px; 
+    text-align: center; 
+    background-image: url(Cave2.jpg.png); 
+    background-size: cover;
+    padding: 200px; ;
+    color: white;
+}
+.ttgitempic4 h4 {
+    grid-row: 1; 
+    grid-column: 1/6;
+    font-size: 75px; 
+    text-align: center; 
+    background-image: url(TheFullMoon2.jpg); 
+    background-size: cover;
+    padding: 200px; ;
+    color: white;
+}
+.ttgitempic5 h4{
+    grid-row: 1; 
+    grid-column: 1/6;
+    font-size: 75px; 
+    text-align: center; 
+    background-image: url(LogCabin.jpg); 
+    background-size: cover;
+    padding: 200px; ;
+    color: transparent; 
+}
+.ttgitemh3{
+    grid-row: 2; 
+    font-size: 38px; 
+    margin-left: 10%; 
+    margin-right:10%; 
+    line-height: 70px; 
+    margin-top: 50px; 
+}
+.bar {
+    background: #112233; 
+    margin-right: 10%; 
+    margin-left: 10%;
+    grid-row: 3; 
+    margin-top: 20px;  
+}
+.barcolor {
+    background-color: rgb(248, 112, 112);
+    font-size: 35px; 
+    padding: 10px; 
+    text-align: center;
+}
+
+.ttgitem h1 {
+    text-align: left;  
+    font-size: 45px; 
+    margin-top: 35px; 
+    width: 83%; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+.SYNOPSIS {
+    width: 83%; 
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 38px; 
+}
+.timetowerul, .timetowerulli {
+    margin-top: 40px; 
+    width: 85%; 
+    margin-right: auto;
+    margin-left: auto; 
+}
+.timetowerul {
+    list-style: 10px; 
+}
+
+.timetowerul h3{
+    font-size: 40px; 
+}
+.timetowerul li{
+    font-size: 39px; 
+    width: 83%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.buttongrid {
+    padding-top: 115px;
+    display: grid; 
+    width: 90%;
+    margin-left: auto; 
+    margin-right: auto;
+    row-gap: 15px; 
+    column-gap: 10px; 
+    grid-template-rows: 3; 
+
+}
+.booknowescaperoombutton {
+    background-color:#48BD23 ; 
+    color: white; 
+    width: 75%;
+    margin-left: auto; 
+    margin-right: auto; 
+    box-shadow: 3px 3px 3px rgb(142, 145, 146);
+}
+    .booknowescaperoombutton1{
+        padding: 40px; 
+        width: 100%; 
+        background-color: #48BD23;
+        font-size: 35px; 
+        color: white; 
+        cursor: pointer;
+        border: 2.5px #48BD23 solid; 
+        letter-spacing: 1.5px; 
+    }
+    .booknowescaperoombutton1:hover {
+        background-color: rgb(255, 255, 255);
+        border: 2.5px solid #48BD23; 
+        color: #48BD23;
+    }
+
+.privatepartiesbutton {
+    background-color: rgb(93, 189, 253);
+    color: white; 
+    width: 75%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    box-shadow: 3px 3px 3px rgb(142, 145, 146);
+}
+    .privatepartiesbutton1 {
+        color: white; 
+        padding: 40px; 
+        font-size: 35px; 
+        letter-spacing: 1.5px; 
+        border: 2.5px rgb(93, 189, 253) solid;
+        cursor: pointer; 
+        width: 100%; 
+        background-color: rgb(93, 189, 253);
+    }
+    .privatepartiesbutton1:hover {
+        background-color: white; 
+        color: rgb(93, 189, 253);
+        border: 2.5px solid rgb(93, 189, 253);
+    }
+.corporateeventsbutton {
+    background-color: rgb(221, 82, 72); 
+    color: white; 
+    width: 75%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+    .corporateeventsbutton1 {
+        background-color: rgb(221, 82, 72);
+        width: 100%; 
+        cursor: pointer; 
+        padding: 40px; 
+        color: white; 
+        font-size: 35px; 
+        box-shadow: 3px 3px 3px rgb(142, 145, 146);
+        border: 2.5px rgb(221, 82, 72) solid; 
+    }
+    .corporateeventsbutton1:hover {
+        color: rgb(221, 82, 72); 
+        border: 2.5px solid rgb(221, 82, 72);
+        background-color: white; 
+    }
+.bookingtermsgrid, .bookingtermsgrid1 {
+    display: grid; 
+    grid-template-rows: 5;  
+    margin-top: 60px; 
+    width: 85%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    row-gap: 20px; 
+    background: rgb(214, 214, 214); 
+    padding: 20px; 
+
+}
+.bookingtermsgrid ul {
+    list-style-type: square;  
+    margin-left: 19px; 
+}
+.termshead, .termshead1 {
+    font-size: 20.5px;  
+    grid-row: 1; 
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.hrterms, .hrterms1 {
+    border: #112233 3px solid; 
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 5px; 
+
+}
+
+.term1, .term2, .term3, .term4, .term11, .term22, .term33, .term44 {
+    font-size: 15px; 
+    color: black; 
+}
+.term1 hr, .term2 hr, .term3 hr, .term4 hr, .term11 hr, .term22 hr, .term33 hr, .term44 hr {
+    width: 80%; 
+    margin-right: auto; 
+    margin-left: auto; 
+    margin-top: 15px; 
+    border: .5px solid rgb(202, 202, 202); 
+}
+.whatare {
+    display: grid; 
+    grid-template-rows: .5fr 1fr; 
+    width: 85%; 
+    margin-right: auto; 
+    margin-left: auto; 
+    margin-top: 30px; 
+    row-gap: 20px; 
+}
+.whatareheading {
+    grid-row: 1; 
+    margin-left: 5px; 
+    font-size: 28px; 
+}
+.whatareicons {
+    grid-row: 2; 
+    display: grid; 
+    grid-template-rows: 1; 
+    grid-template-columns: 1fr 1fr; 
+    justify-content: center;
+}
+.whatareparties, .whatarcorprateevents {
+    width: 100%; 
+    text-align: center; 
+}
+    .whatareparties h3, .whatarcorprateevents h3{
+        font-size: 25px; 
+    }
+.whatarcorprateevents .Learnmorebutton2 {
+    font-size: 20px; 
+    height: 42px; 
+    width: 150px; 
+    margin-top: 10px; 
+}
+.whatareparties .Learnmorebutton2 {
+    font-size: 20px; 
+    height: 42px; 
+    width: 150px; 
+    margin-top: 10px; 
+}
+.anotheroom{
+    margin-top: 70px; 
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    height: 100%;
+    padding-bottom: 70px; 
+    background: rgb(231, 74, 74);  
+}
+.anotheroom h2 {
+    font-size: 45px;
+    padding-top: 20px;  
+}
+.box {
+    margin-top: 30px; 
+    width: 40%;
+    margin-left: auto; 
+    margin-right: auto;
+    height: 500px; 
+    background: azure; 
+}
+.idk {
+    background: rgb(46, 43, 43); 
+    height: 17%; 
+    text-align: center;  
+    letter-spacing: 3px; 
+}
+.idk  {
+    color: white; 
+    text-decoration: none; 
+}
+.idkbox {
+    background-image: url(Composer.jpg);
+    background-size: cover; 
+    height: 420px; 
+    background-position: 60%; 
+}
+.idkbox2 {
+    background-image: url(TheFullMoon.jpg);
+    background-size: cover; 
+    height: 420px; 
+    background-position: 60%; 
+}
+.idkbox3 {
+    background-image: url(TheFullMoon.jpg);
+    background-size: cover; 
+    height: 420px; 
+    background-position: 60%; 
+}
+.idkbox h1, .idkbox2 h1, .idkbox3 h1 {
+    display: none; 
+}
+.box a {
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    cursor: pointer;
+    text-decoration: none; 
+}
+@media screen and (max-width: 1100px) {
+    .bookingtermsgrid1 {
+        display: none; 
+    }
+    .whatare1 {
+        display: none; 
+    }
+    .box2, .box3 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .bookingtermsgrid {
+        display: none; 
+    }
+    .timetowergrid {
+        display: grid; 
+        grid-template-columns: 60% 40%;
+        width: 100%; 
+        grid-template-rows: 600px 155px 100px 100px 500px;
+        margin-left: auto; 
+        margin-right: auto;
+        row-gap: 0px;   
+        height: fit-content; 
+    }
+    .ttgitem h4 {
+        font-size: 45px; 
+        grid-row: 1; 
+        grid-column: 1; 
+        margin: 0px; 
+    }
+    .ttgitemh3 {
+        grid-row: 2; 
+        grid-column: 1; 
+        font-size: 27px; 
+        margin-top: 10px; 
+        line-height: 50px;
+        height: fit-content; 
+    }
+    .bar {
+        grid-row: 3; 
+        grid-column: 1; 
+        margin-top: 0px; 
+        height: fit-content; 
+        width: 80%;
+    }
+    .ttgitem h1 {
+        font-size: 26px; 
+        grid-row: 1; 
+        grid-column: 1; 
+    }
+    .SYNOPSIS {
+        font-size: 20px; 
+        grid-row: 1; 
+        grid-column: 1; 
+    }
+    .ttgitem {
+        grid-row: 4; 
+        grid-column:1; 
+    }
+    .timetowerul h3 {
+        font-size: 30px; 
+    }
+    .timetowerul li {
+        font-size: 25px; 
+    }
+    .timetowerul, .timetowerulli {
+        grid-row: 4; 
+        grid-column: 1; 
+    }
+    .bookingtermsgrid1 {
+        width: 80%; 
+        grid-row: 1; 
+        grid-column: 2; 
+        height: 100%; 
+        margin-top: 0; 
+        margin-right: auto;
+        margin-left: auto;
+        list-style: none; 
+    }
+    .term11 hr, .term22 hr, .term33 hr, .term44 hr {
+        width: 88%; 
+        margin-top: 0;
+    }
+    .term11, .term22, .term33, .term44 {
+        width: 100%; 
+    }
+    .bookingtermsgrid ul {
+        list-style: none; 
+    }
+    .whatare {
+        display: none; 
+    }
+    .whatare1 {
+        grid-column: 2;
+        grid-row: 2/6; 
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 50px;
+        row-gap: 20px; 
+        width: 80%;
+    }
+    .whatareheading1 {
+        font-size: 28px; 
+    }
+    .whatareicons1{
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top: 50px;
+        text-align: center;
+    }
+    .whatareparties1 {
+        font-size: 27px; 
+    }
+    .whatarcorprateevents1 {
+        font-size: 27px; 
+        margin-top: 50px; 
+    }
+    .buttongrid {
+        width: 70%; 
+        margin-right: auto; 
+        margin-left: auto; 
+        display: grid; 
+        grid-template-rows: 1;
+        grid-template-columns: 1fr 1fr 1fr
+    }
+    .booknowescaperoombutton {
+        background-color: #48BD23; 
+        width: 260px;
+        height: unset;
+        font-size: 25px; 
+    }
+    .booknowescaperoombutton1 {
+        width: 260px;  
+        font-size: 20px; 
+    }
+    .privatepartiesbutton1, .privatepartiesbutton {
+        width: 260px; 
+        font-size: 20px; 
+    }
+    .corporateeventsbutton, .corporateeventsbutton1 {
+        width: 260px;
+        font-size: 20px; 
+    }
+    .anotheroom h2 {
+        font-size: 49px; 
+    }
+    .anotheroom {
+        grid-template-rows: 1; 
+        grid-template-columns: 3; 
+    }
+    .box, .box2, .box3 {
+        width: 370px;
+        height: 500px;
+        margin: 0;
+        width: 90;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;  
+    }
+    .box2, .box3 {
+        display: none; 
+    }
+}
+.cimg {
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-image: url(team.jpg);
+    padding: 200px; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.cimg h1 {
+    visibility: hidden;
+}
+
+.cp {
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 30px; 
+    font-family: 'PT Sans', sans-serif;
+    text-align: center; 
+}
+
+.ch1 {
+    margin-top: 20px; 
+    font-size: 55px; 
+    color: rgb(221, 82, 72); 
+    font-family: 'PT Sans', sans-serif;
+    text-align: center; 
+}
+
+.party-img {
+    background-image: url(balloon.jpg)
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+     margin-bottom: 16px;
+    resize: vertical
+  }
+  
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
